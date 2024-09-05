@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url('images/imagem-de-fundo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'roboto';
+
+}
+
+.menu-navegacao{
+    display: flex;
+    gap: 60px;
+}
+
+li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+li:hover{
+    color: #20AABB;
+    cursor: pointer;
+    transition: 270ms;
+    font-size: 26.5px;
+}
+
+.botao-solicitar-teste{
+    height: 50px;
+    width: 310px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    border-radius: 30px;
+    background-color:#20AABB;  
+    font-weight: 500;
+}
+
+.botao-solicitar-teste:hover{
+    width: 340px;
+    font-size: 22px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+
+
+
+    
