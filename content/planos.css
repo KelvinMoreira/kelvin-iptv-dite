@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url('images/imagem-de-fundo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    padding-left: 275px;
+    gap: 90px;
+    align-items: center;
+    font-family: 'roboto';
+    background-color: rgba(0, 0, 0, 0.721);
+}
+
+.menu-navegacao{
+    display: flex;
+    gap: 50px;
+}
+
+.lista-header{
+    list-style: none;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.lista-header:hover{
+    color: #20AABB;
+    cursor: pointer;
+    transition: 290ms;
+    font-size: 24px;
+}
+
+.botao-solicitar-teste{
+    height: 50px;
+    width: 310px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    border-radius: 30px;
+    background-color:#20AABB;  
+    font-weight: 500;
+    border: 2px solid;
+}
+
+.botao-teste{
+    height: 50px;
+    width: 310px;
+    font-size: 21px;
+    font-family: 'roboto';
+    letter-spacing: 1px;
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    border-radius: 30px;
+    background-color:#20AABB;  
+    font-weight: 500;
+    border: 2px solid;
+}
+
+.botao-teste:hover{
+    width: 325px;
+    font-size: 22px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.caixa-cartoes{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.categoria-plano1{
+    background-color: #BDBDBD;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 120px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 18px;
+}
