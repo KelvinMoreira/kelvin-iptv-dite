@@ -21,7 +21,6 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -97,29 +96,199 @@ header{
     cursor: pointer;
 }
 
-.caixa-cartoes{
+.container-cartoes{
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: center;
+    gap: 40px;
+
 }
 
-.categoria-plano1{
-    background-color: #BDBDBD;
+.card{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 450px;
+    height: 700px;
     display: flex;
     flex-direction: column;
-    width: 450px;
-    height: 120px;
-    text-align: center;
-    align-items: center;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.categoria-card-um{
+    background-color: #BDBDBD;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 h2{
-    font-family: 'Roboto';
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 2px;
 }
 
-p{
-    font-size: 18px;
+h3{
+    color: black;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+}
+
+.descricao-plano{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    text-align: center;
+}
+
+.topicos-plano{
+    font-family: 'Poppins';
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    width: 350px;
+    padding-bottom: 9px;
+}
+
+.categoria-card-dois{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #20AABB;
+}
+
+.categoria-card-tres{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFBF01;
+}
+
+.botao-cartao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+button{
+    background-color: #229E00;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    width: 230px;
+    height: 60px;
+    font-size: 20px;
+    transition: 370ms;
+}
+
+.texto-whats{
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+footer{
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.h2-footer{
+    font-family: 'Roboto;';
+    color: #20AABB;
+    font-family: 'nerko one';
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.lista-footer{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.apps-inclusos{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.botao-rede-social{
+    width: 270px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: #e9e9e9;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.botao-rede-social:hover{
+    cursor: pointer;
+}
+
+.formas-de-pagamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.tres-primeiros{
+    display: flex;
+    gap: 20px;
+}
+
+.tres-segundos{
+    display: flex;
+    gap: 20px;
+}
+
+.box-logo-pgto{
+    background-color: #e9e9e9;
+    height: 30px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
