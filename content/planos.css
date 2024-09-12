@@ -35,6 +35,9 @@ header{
     background-color: rgba(0, 0, 0, 0.721);
 }
 
+a{
+    text-decoration: none;
+}
 .menu-navegacao{
     display: flex;
     gap: 50px;
